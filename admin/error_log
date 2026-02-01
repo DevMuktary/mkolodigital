@@ -1,0 +1,312 @@
+[18-Sep-2025 14:11:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 14:27:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 15:04:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 15:12:59 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 15:16:07 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 15:26:35 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 15:31:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 15:54:02 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 15:55:34 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 16:07:13 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[18-Sep-2025 17:55:38 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[19-Sep-2025 05:04:18 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[19-Sep-2025 05:54:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[19-Sep-2025 09:17:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/smartst1/public_html/admin/login.php on line 32
+[21-Sep-2025 16:36:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:36:20 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:36:22 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:36:24 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:29 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:36:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:31 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:36:31 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:36:46 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:36:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:37:01 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:37:01 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:37:01 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[21-Sep-2025 16:37:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:37:04 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:37:04 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[21-Sep-2025 16:37:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:37:12 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:37:12 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[21-Sep-2025 16:37:16 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:37:16 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:37:16 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[21-Sep-2025 16:37:23 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:37:23 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:37:23 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[21-Sep-2025 16:37:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:37:25 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:37:25 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[21-Sep-2025 16:41:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:41:22 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:41:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[21-Sep-2025 16:46:10 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:46:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:46:12 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:46:12 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[21-Sep-2025 16:46:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:46:14 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:46:14 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[21-Sep-2025 16:46:16 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[21-Sep-2025 16:46:16 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[21-Sep-2025 16:46:16 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[26-Sep-2025 09:39:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:39:22 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:39:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:39:27 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:39:27 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:39:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:39:29 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:39:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:39:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:39:39 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:39:39 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:39:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:39:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:39:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:40:08 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:40:08 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[26-Sep-2025 09:40:08 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[26-Sep-2025 09:40:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:40:12 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[26-Sep-2025 09:40:12 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[26-Sep-2025 09:40:15 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:40:15 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[26-Sep-2025 09:40:15 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[26-Sep-2025 09:40:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:40:17 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[26-Sep-2025 09:40:17 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[26-Sep-2025 09:40:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:40:25 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[26-Sep-2025 09:40:25 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[26-Sep-2025 09:48:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 7
+[26-Sep-2025 09:50:10 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 09:50:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:50:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 09:54:01 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 10
+[26-Sep-2025 09:54:06 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 10
+[26-Sep-2025 09:57:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/mkolodig/public_html/db.php on line 10
+[26-Sep-2025 10:06:27 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:27 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:31 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:31 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:32 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:32 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:32 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[26-Sep-2025 10:06:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[26-Sep-2025 10:06:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/mkolodig/public_html/admin/dashboard.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/mkolodig/public_html/admin/dashboard.php on line 10
+[28-Sep-2025 15:51:38 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:09:48 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:09:52 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:09:52 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[10-Oct-2025 18:09:52 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[10-Oct-2025 18:09:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:09:57 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[10-Oct-2025 18:09:57 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[10-Oct-2025 18:09:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:09:59 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[10-Oct-2025 18:09:59 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[10-Oct-2025 18:10:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:10:03 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[10-Oct-2025 18:10:03 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[10-Oct-2025 18:10:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:10:04 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[10-Oct-2025 18:10:04 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[10-Oct-2025 18:10:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:10:12 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[10-Oct-2025 18:10:12 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[10-Oct-2025 18:16:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:16:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[10-Oct-2025 18:16:20 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[10-Oct-2025 18:16:20 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 11:32:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:32:30 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:32:30 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 11:32:30 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 11:32:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:32:36 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 11:32:36 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 11:32:40 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:32:40 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 11:32:40 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 11:32:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:32:42 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 11:32:42 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 11:42:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:44:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:44:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:44:13 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 11:44:13 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 11:58:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:58:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:58:55 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 11:58:55 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 11:58:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 11:58:57 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 11:58:57 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 12:03:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 12:03:15 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 12:03:15 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 12:03:15 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 12:13:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 12:13:26 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 12:13:26 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 12:13:26 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[19-Nov-2025 12:13:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[19-Nov-2025 12:13:28 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[19-Nov-2025 12:13:28 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[13-Jan-2026 12:11:16 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 12:11:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 12:11:20 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[13-Jan-2026 12:11:20 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[13-Jan-2026 12:11:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 12:11:25 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[13-Jan-2026 12:11:25 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[13-Jan-2026 12:11:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 12:11:28 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[13-Jan-2026 12:11:28 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[13-Jan-2026 12:24:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 12:24:23 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 12:24:23 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[13-Jan-2026 12:24:23 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[13-Jan-2026 12:50:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 12:50:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 12:50:56 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[13-Jan-2026 12:50:56 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[13-Jan-2026 13:03:26 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 13:03:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[13-Jan-2026 13:03:33 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[13-Jan-2026 13:03:33 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[18-Jan-2026 09:57:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[18-Jan-2026 09:57:38 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[18-Jan-2026 09:57:38 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[18-Jan-2026 09:57:38 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[18-Jan-2026 09:57:40 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[18-Jan-2026 09:57:40 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[18-Jan-2026 09:57:40 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47
+[18-Jan-2026 09:57:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/mkolodig/public_html/db.php on line 9
+[18-Jan-2026 09:57:43 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 19
+[18-Jan-2026 09:57:43 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/mkolodig/public_html/admin/login.php on line 47

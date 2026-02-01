@@ -1,0 +1,43 @@
+# ==============================================================================
+# Mkolo Digital - Admin Area .htaccess (More Secure Version)
+# ==============================================================================
+
+# --- Prevent Directory Listing ---
+# This is the key security rule. It stops the server from showing a list of 
+# files and results in a "403 Forbidden" error if someone visits /admin/.
+Options -Indexes
+
+
+# --- Security Enhancements ---
+<IfModule mod_headers.c>
+    # Prevents your site from being placed in an iframe on another site (Clickjacking).
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # Prevents the browser from trying to guess file types, which can be a security risk.
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Enables the browser's built-in Cross-Site Scripting (XSS) filter.
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+
+# --- Protect Sensitive Files ---
+# Block web access to files that should not be publicly visible.
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|sql)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+
+# --- Performance: Enable Browser Caching ---
+# Tells the browser to save copies of your files so the site loads faster on repeat visits.
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>

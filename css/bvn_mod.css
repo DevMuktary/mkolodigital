@@ -1,0 +1,44 @@
+  *{margin:0;padding:0;box-sizing:border-box;font-family:"Segoe UI",sans-serif;}
+    body{background:#f0f4ff;color:#333;padding:20px;}
+
+    /* Topbar */
+    .topbar{background:#2563eb;color:#fff;padding:15px;border-radius:8px;margin-bottom:20px;text-align:center;}
+    .topbar h1{font-size:20px;}
+
+    /* Card */
+    .card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,0.1);margin-bottom:20px;}
+    h2{font-size:18px;margin-bottom:15px;color:#1e3a8a;}
+
+    /* Form */
+    form{display:flex;flex-direction:column;gap:15px;}
+    label{font-weight:600;margin-bottom:4px;}
+    input,select{padding:10px;border-radius:6px;border:1px solid #cbd5e1;font-size:14px;width:100%;}
+    .btn{padding:12px;background:#2563eb;color:#fff;border:none;border-radius:6px;cursor:pointer;font-weight:600;transition:0.3s;}
+    .btn:hover{background:#1e40af;}
+
+    /* Result */
+    .result{margin-top:10px;padding:15px;border-radius:8px;display:none;}
+    .success{background:#dcfce7;color:#166534;}
+    .error{background:#fee2e2;color:#991b1b;}
+
+    /* Table */
+    table{width:100%;border-collapse:collapse;margin-top:15px;}
+    th,td{border:1px solid #e2e8f0;padding:10px;text-align:left;font-size:14px;}
+    th{background:#f1f5f9;}
+    .download-btn{background:#22c55e;color:#fff;padding:6px 12px;border:none;border-radius:4px;cursor:pointer;}
+    .download-btn:disabled{background:#9ca3af;cursor:not-allowed;}
+
+    /* Floating WhatsApp */
+    .fab{position:fixed;bottom:20px;right:20px;background:#25d366;color:#fff;padding:14px;border-radius:50%;text-decoration:none;font-size:22px;box-shadow:0 2px 6px rgba(0,0,0,0.2);}
+    .fab:hover{background:#128c7e;}
+    
+    /* Bank Selection */
+    .bank-selector {display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;}
+    .bank-card {background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); cursor: pointer; transition: all 0.3s;}
+    .bank-card:hover {transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0,0,0,0.15);}
+    .bank-card.selected {border: 2px solid #2563eb; background-color: #f0f7ff;}
+    .bank-name {font-weight: bold; margin-bottom: 8px;}
+    .bank-details {display: none; margin-top: 10px; font-size: 14px;}
+    .bank-card.selected .bank-details {display: block;}
+    .price-item {display: flex; justify-content: space-between; margin-bottom: 5px;}
+    .duration {margin-top: 10px; font-style: italic; color: #666;}

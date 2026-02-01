@@ -1,0 +1,289 @@
+/* === CSS RESET & GOOGLE FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --sidebar-bg: #111827;
+    --sidebar-logo-text: #ffffff;
+    --sidebar-text: #9ca3af;
+    --sidebar-text-hover: #ffffff;
+    --sidebar-active-bg: #4f46e5;
+    --sidebar-active-text: #ffffff;
+    --sidebar-width: 260px;
+    --sidebar-collapsed-width: 80px;
+
+    --content-bg: #f9fafb;
+    --header-bg: #ffffff;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --border-color: #e5e7eb;
+    
+    --transition-speed: 0.3s;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--content-bg);
+    color: var(--text-dark);
+    /* [THE FIX] This prevents the entire page from horizontal scrolling or "dragging" */
+    overflow-x: hidden;
+}
+
+/* === SIDEBAR STYLES === */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: var(--sidebar-width);
+    background-color: var(--sidebar-bg);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    transition: width var(--transition-speed) ease;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    flex-shrink: 0;
+}
+
+.sidebar-logo {
+    color: var(--sidebar-logo-text);
+    font-size: 1.5rem;
+    font-weight: 700;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity var(--transition-speed) ease;
+}
+
+.sidebar-toggle-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--sidebar-text-hover);
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--transition-speed) ease;
+}
+.sidebar-toggle-btn:hover {
+    background: var(--sidebar-active-bg);
+}
+
+.sidebar-nav {
+    flex-grow: 1; /* This pushes the footer to the bottom */
+    overflow-y: auto;
+    padding: 0 1rem;
+}
+.sidebar-nav ul {
+    list-style: none;
+}
+.sidebar-nav a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--sidebar-text);
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+.sidebar-nav a i {
+    font-size: 1.2rem;
+    width: 24px;
+    text-align: center;
+}
+.sidebar-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--sidebar-text-hover);
+}
+.sidebar-nav a.active {
+    background-color: var(--sidebar-active-bg);
+    color: var(--sidebar-active-text);
+}
+
+.sidebar-footer {
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    flex-shrink: 0;
+}
+.sidebar-footer .sidebar-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--sidebar-text);
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+.sidebar-footer .sidebar-link:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--sidebar-text-hover);
+}
+
+
+/* === MAIN CONTENT WRAPPER & HEADER === */
+.main-wrapper {
+    margin-left: var(--sidebar-width);
+    transition: margin-left var(--transition-speed) ease;
+}
+.top-header {
+    background: var(--header-bg);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.75rem 1.5rem;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+.mobile-menu-btn {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-dark);
+}
+
+.user-menu {
+    position: relative;
+    cursor: pointer;
+}
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-menu-dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    width: 240px;
+    background-color: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+.user-menu-dropdown.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.dropdown-header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.dropdown-header .user-name {
+    display: block;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+.dropdown-header .user-email {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    word-break: break-all;
+}
+.dropdown-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+.dropdown-link:hover {
+    background-color: #f9fafb;
+}
+.dropdown-link i {
+    width: 20px;
+    color: var(--text-light);
+}
+
+
+/* === COLLAPSED SIDEBAR STYLES (Desktop) === */
+body.sidebar-collapsed .sidebar {
+    width: var(--sidebar-collapsed-width);
+}
+body.sidebar-collapsed .main-wrapper {
+    margin-left: var(--sidebar-collapsed-width);
+}
+body.sidebar-collapsed .sidebar-logo,
+body.sidebar-collapsed .nav-item-text {
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+}
+body.sidebar-collapsed .sidebar-toggle-btn {
+    transform: rotate(180deg);
+}
+body.sidebar-collapsed .sidebar-footer {
+    padding: 1rem 0.5rem;
+}
+body.sidebar-collapsed .sidebar-footer .sidebar-link {
+    justify-content: center;
+}
+
+
+/* === RESPONSIVE STYLES (Mobile) === */
+@media (max-width: 992px) {
+    .sidebar {
+        transform: translateX(-100%);
+        transition: transform var(--transition-speed) ease;
+    }
+    .sidebar--open {
+        transform: translateX(0);
+    }
+    .sidebar-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity var(--transition-speed) ease, visibility var(--transition-speed) ease;
+    }
+    .sidebar-overlay--visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    .main-wrapper {
+        margin-left: 0;
+    }
+    .sidebar-toggle-btn {
+        display: none;
+    }
+    .mobile-menu-btn {
+        display: block;
+    }
+}

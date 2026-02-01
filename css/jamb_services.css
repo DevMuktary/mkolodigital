@@ -1,0 +1,277 @@
+
+    :root {
+      --navy: #113a6b;         /* header + sidebar */
+      --navy-dim: #0d2e55;     /* darker */
+      --primary: #2f6ef2;      /* buttons/icons */
+      --bg: #f3f6fb;           /* page background */
+      --text: #1f2a44;         /* body text */
+      --muted: #6b7a99;        /* helper text */
+      --card: #ffffff;         /* cards */
+      --shadow: 0 8px 20px rgba(17,58,107,.08);
+      --radius-lg: 18px;
+      --radius-md: 14px;
+    }
+    
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: var(--bg);
+    }
+    
+    /* Top App Bar */
+    .topbar {
+      position: sticky; 
+      top: 0; 
+      z-index: 20;
+      background: var(--navy);
+      color: #fff;
+      padding: 18px;
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between;
+    }
+    .topbar-left, .topbar-right { 
+      display: flex; 
+      align-items: center; 
+      gap: 14px; 
+    }
+    .icon-btn { 
+      width: 40px; 
+      height: 40px; 
+      display: grid; 
+      place-items: center; 
+      border-radius: 12px; 
+      background: rgba(255,255,255,.08); 
+      cursor: pointer; 
+      border: none;
+      color: white;
+    }
+    .icon-btn:active { 
+      transform: scale(.98); 
+    }
+    .addr-pill { 
+      display: none; 
+    }
+
+    /* Layout */
+    .layout { 
+      display: block; 
+    }
+
+    /* Main */
+    main { 
+      padding: 18px; 
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .hero {
+      background: var(--navy);
+      color: #fff;
+      border-radius: 20px;
+      padding: 26px 20px;
+      margin-bottom: 16px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero h1 { 
+      margin: 0 0 6px; 
+      font-weight: 800; 
+      letter-spacing: .2px; 
+      font-size: 24px;
+    }
+    .hero p { 
+      margin: 0; 
+      color: #d7e3ff; 
+      max-width: 640px; 
+      font-size: 14px;
+    }
+
+    /* Balance Card */
+    .card {
+      background: var(--card);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 18px;
+      margin-bottom: 20px;
+    }
+    .balance-card { 
+      display: grid; 
+      gap: 18px; 
+    }
+    .balance-top { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+    }
+    .balance-top .label { 
+      color: var(--muted); 
+      font-weight: 600; 
+    }
+    .wallet-badge { 
+      width: 54px; 
+      height: 54px; 
+      border-radius: 999px; 
+      display: grid; 
+      place-items: center; 
+      background: #e7efff; 
+    }
+
+    .amount { 
+      font-size: 42px; 
+      line-height: 1; 
+      font-weight: 800; 
+      letter-spacing: -1px; 
+      color: #243857; 
+      margin: 10px 0;
+    }
+    .btn-primary {
+      display: inline-block; 
+      border: 0; 
+      background: var(--primary); 
+      color: #fff; 
+      font-weight: 700; 
+      padding: 14px 24px; 
+      border-radius: 14px; 
+      cursor: pointer; 
+      text-decoration: none; 
+      text-align: center;
+      box-shadow: 0 8px 18px rgba(47,110,242,.25);
+      transition: all 0.3s;
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 22px rgba(47,110,242,.35);
+    }
+    .muted { 
+      color: var(--muted); 
+      font-size: 14px;
+    }
+
+    /* Services grid */
+    .grid { 
+      display: grid; 
+      gap: 16px; 
+      grid-template-columns: 1fr; 
+      margin-top: 16px; 
+    }
+    @media (min-width: 680px) { 
+      .grid { 
+        grid-template-columns: repeat(2, 1fr); 
+      } 
+    }
+    @media (min-width: 1080px) { 
+      .grid { 
+        grid-template-columns: repeat(3, 1fr); 
+      } 
+    }
+    .service {
+      display: grid; 
+      gap: 10px; 
+      align-content: start; 
+      text-align: left;
+      padding: 22px; 
+      border-radius: var(--radius-md);
+      background: #fff; 
+      box-shadow: var(--shadow);
+      min-height: 150px;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+    .service:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(17,58,107,.15);
+    }
+    img{
+      width: 64px; 
+      height: 64px; 
+      border-radius: 999px; 
+      display: grid; 
+      place-items: center; 
+      background: #e7efff;
+    }
+    .svc-icon { 
+      width: 64px; 
+      height: 64px; 
+      border-radius: 999px; 
+      display: grid; 
+      place-items: center; 
+      background: #e7efff; 
+    }
+    .service h3 { 
+      margin: 0; 
+      font-size: 18px; 
+      color: var(--text);
+    }
+    .service a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Floating WhatsApp */
+    .fab {
+      position: fixed; 
+      right: 18px; 
+      bottom: 22px; 
+      width: 64px; 
+      height: 64px; 
+      border-radius: 999px; 
+      background: #25d366; 
+      display: grid; 
+      place-items: center; 
+      box-shadow: 0 10px 24px rgba(0,0,0,.2);
+      z-index: 10;
+      transition: all 0.3s;
+    }
+    .fab:hover {
+      transform: scale(1.1);
+    }
+
+    /* Utility */
+    .spacer { 
+      height: 10px; 
+    }
+    
+    /* Responsive improvements */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 20px;
+      }
+      
+      .amount {
+        font-size: 36px;
+      }
+      
+      .service {
+        min-height: 130px;
+        padding: 18px;
+      }
+      
+      .svc-icon {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .topbar {
+        padding: 12px;
+      }
+      
+      main {
+        padding: 12px;
+      }
+      
+      .hero {
+        padding: 20px 15px;
+      }
+      
+      .card {
+        padding: 15px;
+      }
+      
+      .grid {
+        gap: 12px;
+      }
+    }
